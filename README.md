@@ -1,0 +1,2 @@
+# microfrontends-nextjs-example
+WIP
