@@ -1,5 +1,10 @@
 {
+  "name": "microfrontends-nextjs-example",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -13,10 +18,5 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "name": "microfrontends-nextjs-example",
-  "packageManager": "yarn@1.22.19",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "packageManager": "yarn@1.22.19"
 }
